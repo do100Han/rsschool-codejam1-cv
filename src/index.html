@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lorem, ipsum dolor.</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <header class="header header--shadow">
+    <div class="wrap">
+      <a class="logo" href="#">
+        <div class="logo__icon">
+          <svg class="map" viewBox="0 0 30 40" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 0C6.71633 0 0 6.71633 0 15C0 23.2837 12.5 40 15 40C17.5 40 30 23.2837 30 15C30 6.71633 23.2837 0 15 0ZM15 25C9.48484 25 5 20.5127 5 15C5 9.48734 9.48484 5 15 5C20.5152 5 25 9.48734 25 15C25 20.5127 20.5152 25 15 25Z" />
+          </svg>
+        </div>
+        <div class="logo__info">
+          <h2 class="title title--upper">Geotrack</h2>
+          <p class="desc desc--gray desc--light">ver 1.0</p>
+        </div>
+      </a>
+      <div class="navbar">
+        <a href="javascript:;" class="menu">Menu</a>
+        <nav class="nav">
+          <a href="#" class="link link--effect link--medium link--upper active">Geomap</a>
+          <a href="#" class="link link--effect link--medium link--upper">Home</a>
+          <a href="#" class="link link--effect link--medium link--upper">About</a>
+          <a href="#" class="link link--effect link--medium link--upper">Features</a>
+          <a href="#" class="link link--effect link--medium link--upper">Pricing</a>
+        </nav>
+      </div>
+      <div class="search">
+        <input class="search__input" type="text" placeholder="Search geotrack">
+      </div>
+      <a href='#' class="acount-img">
+        <img src="img/user.jpg" alt="user">
+      </a>
+    </div>
+  </header>
+  <main class="main">
+    <div class="wrap">
+      <div class="info shadow-block">
+        <div class="info__head">
+          <div class="info__logo">
+            <img class="info__img-logo" src="/img/logo.png" alt="Logo">
+            <div class="info__qr-code">
+              <img class="info__qr-code-img" src="/img/CA_QR_code.png" alt='qr-code'>
+            </div>
+            <a class='info__arrow-link arrow-link' href="#">
+              <span class="arrow arrow__top"></span>
+              <span class="arrow arrow__bottom"></span>
+            </a>
+          </div>
+          <div class="info__name">
+            <h2 class="title">California University</h2>
+            <p class="text text--blue text--upper id-numbers">Id:222221561513151313513</p>
+            <button class="btn-buffer">Copy in buffer</button>
+          </div>
+        </div>
+        <div class="info__desc">
+            <div class="info__row">
+              <div class="info__type">Geo Type:</div>
+              <div class="info__value">Government</div>
+            </div>
+            <div class="info__row">
+              <div class="info__type">Short Geo:</div>
+              <div class="info__value">CA_University</div>
+            </div>
+            <div class="info__row">
+              <div class="info__type">Address:</div>
+              <div class="info__value">United States, California LA, Sarigza Avenue 234, 44A</div>
+            </div>
+            <div class="info__row">
+              <div class="info__type">Email:</div>
+              <div class="info__value"><a class="link link--blue" href="#">rutkevich.sawa@gmail.com</a></div>
+            </div>
+            <div class="info__row">
+              <div class="info__type">Expiere:</div>
+              <div class="info__value">31 Oct 2016</div>
+            </div>
+            <div class="info__row">
+              <div class="info__type">Privacy:</div>
+              <div class="info__value">Enable</div>
+            </div>
+        </div>
+        <div class="info__btn">
+          <button class="button button--orange">Edit Profile</button>
+        </div>
+      </div>
+      <div class="map-container">
+        <div class="info-map shadow-block">
+          <div class="info-map__icon">
+            <svg class="clipboards" viewBox="0 0 37 40" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.692 17.7778H5.92285V19.2593H23.692V17.7778Z" />
+              <path d="M5.92285 22.2222V23.7037H20.3338L21.8146 22.2222H5.92285Z" />
+              <path d="M5.92285 26.6665V28.148H15.8913L17.3721 26.6665H5.92285Z" />
+              <path d="M13.3267 31.1113H5.92285V32.5928H13.3267V31.1113Z" />
+              <path d="M36.5666 15.8432L34.4724 13.7482C33.8945 13.17 32.9563 13.1699 32.3784 13.7481C27.034 19.0951 21.6754 24.4563 16.2885 29.8458C16.2885 32.4094 16.2885 31.854 16.2885 34.0738C19.8532 34.0738 18.9515 34.0754 20.4453 34.0675C21.2181 33.2942 24.6291 29.8817 28.1346 26.3746V37.037C28.1346 37.8552 27.4717 38.5185 26.6538 38.5185H2.96162C2.14377 38.5185 1.48086 37.8552 1.48086 37.037V10.3702C1.48086 9.55199 2.14377 8.88875 2.96162 8.88875H5.92342V11.8518H23.6923V8.88884L26.6538 8.88875C27.4717 8.88875 28.1346 9.55199 28.1346 10.3702V15.8727L29.6154 14.3809V10.3702C29.6154 8.73374 28.2894 7.40726 26.6538 7.40726H23.4365C22.961 6.06262 21.8594 5.01382 20.4802 4.61706C19.7984 4.42095 19.2736 3.89594 19.0775 3.21381C18.544 1.35769 16.8343 0 14.8076 0C12.781 0 11.0715 1.35769 10.538 3.21353C10.3417 3.8965 9.81561 4.42085 9.13307 4.61761C7.75439 5.01512 6.65187 6.06281 6.17691 7.40726H2.96153C1.32593 7.40726 0 8.73374 0 10.3702V37.037C0 38.6734 1.32593 40 2.96153 40H26.6537C28.2893 40 29.6153 38.6734 29.6153 37.037V24.8932C32.7988 21.7082 35.7639 18.7416 36.5665 17.9384C37.1445 17.3601 37.1445 16.4215 36.5666 15.8432ZM7.404 8.86504C7.41418 7.56263 8.29375 6.40151 9.54296 6.04132C10.7192 5.70225 11.6232 4.79817 11.961 3.62317C12.3236 2.36205 13.4941 1.48149 14.8076 1.48149C16.1213 1.48149 17.2918 2.36205 17.6542 3.62317C17.9922 4.79891 18.8956 5.70271 20.0707 6.04077C21.331 6.40355 22.2114 7.57467 22.2114 8.88884V10.3703H7.404V8.86504ZM19.8283 32.5895C19.4444 32.5916 19.2871 32.5923 18.7558 32.5925L17.7692 31.6053V30.4595C18.1362 30.0923 18.3901 29.8383 18.7666 29.4615L20.8607 31.5566L19.8283 32.5895ZM21.9077 30.5091L19.8136 28.414L29.2372 18.9859L31.3313 21.0811L21.9077 30.5091ZM32.3783 20.0334L30.2842 17.9383L31.3313 16.8907L33.4255 18.9858L32.3783 20.0334ZM34.4724 17.9384L32.3783 15.8432L33.4254 14.7957L35.5195 16.8908L34.4724 17.9384Z" />
+              <path d="M14.8303 5.55573C15.4437 5.55573 15.9409 5.05826 15.9409 4.44461C15.9409 3.83096 15.4437 3.3335 14.8303 3.3335C14.2169 3.3335 13.7197 3.83096 13.7197 4.44461C13.7197 5.05826 14.2169 5.55573 14.8303 5.55573Z" />
+            </svg>
+          </div>
+          <div class="info-map__text">
+            <h2 class="title">Geo Message</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nostrum sapiente vitae dicta qui ducimus repellendus, repudiandae esse tempora maiores beatae quaerat rem cumque quod voluptate consectetur delectus reprehenderit et?</p>
+          </div>
+        </div>
+        <div id="map" class="map shadow-block"></div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer footer--shadow">
+    <div class="wrap">
+      <div class="left">
+        <h2 class="title title--upper">Geotrack</h2>
+        <p class="desc desc--gray desc--normal">&#169; Geotrack Inc. All right reserved 2016</p>
+      </div>
+      <div class="right">
+        <div class="links">
+          <a href="#" class="link link--medium link--upper">App api</a>
+          <a href="#" class="link link--medium link--upper">Support</a>
+        </div>
+        <div class="socials">
+          <a class="socials__icon" href="#">
+            <svg class="facebook" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path d="M40 6.66711C40 3.164 36.8373 0 33.3333 0H6.66667C3.16267 0 0 3.164 0 6.66711V33.3329C0 36.836 3.16267 40 6.66711 40H20V24.8889H15.1111V18.2222H20V15.6249C20 11.1453 23.3636 7.11111 27.5 7.11111H32.8889V13.7778H27.5C26.9102 13.7778 26.2222 14.4938 26.2222 15.5662V18.2222H32.8889V24.8889H26.2222V40H33.3333C36.8373 40 40 36.836 40 33.3329V6.66711Z" />
+          </svg></a>
+          <a class="socials__icon" href="#">
+            <svg class="twitter" viewBox="0 0 59 40" xmlns="http://www.w3.org/2000/svg">
+              <path d="M52.3152 17.7833C55.6289 17.5143 57.8766 16.0318 58.7416 14.0202C57.5463 14.7428 53.8357 15.5307 51.7865 14.7804C51.6861 14.3065 51.5739 13.8565 51.4638 13.4501C49.9023 7.80759 44.5562 3.26176 38.9545 3.81092C39.4077 3.63084 39.8674 3.46317 40.3257 3.31265C40.9423 3.09531 44.5599 2.51604 43.9902 1.25937C43.5101 0.15403 39.0902 2.09472 38.258 2.34838C39.3566 1.94177 41.1734 1.24236 41.3681 0C39.685 0.227197 38.0327 1.0103 36.7561 2.14899C37.217 1.66071 37.5666 1.06565 37.6408 0.425236C33.1517 3.24758 30.5294 8.93764 28.4072 14.4572C26.7409 12.8679 25.2639 11.6164 23.939 10.9214C20.222 8.95978 15.7778 6.91311 8.80137 4.3644C8.58724 6.63597 9.94291 9.65635 13.8493 11.6649C13.0029 11.5534 11.4552 11.8022 10.2174 12.094C10.7215 14.6963 12.3678 16.8403 16.8248 17.877C14.788 18.0093 13.7353 18.4655 12.7813 19.4486C13.709 21.2585 15.9727 23.3886 20.0449 22.9514C15.5174 24.8718 18.1989 28.4283 21.8829 27.8979C15.5982 34.2863 5.68976 33.8167 0 28.4735C14.8556 48.395 47.1482 40.2551 51.9606 21.0668C55.5662 21.0971 57.6858 19.8377 59 18.4493C56.9227 18.7962 53.9117 18.4377 52.3152 17.7833Z" />
+            </svg>
+          </a>
+          <a class="socials__icon" href="#">
+            <svg class="youtube" viewBox="0 0 57 40" xmlns="http://www.w3.org/2000/svg">
+              <path d="M57 8.54476C57 3.8254 53.1867 0 48.4817 0H8.51833C3.8133 0 0 3.8254 0 8.54476V31.4552C0 36.1746 3.8133 40 8.51833 40H48.4817C53.1867 40 57 36.1746 57 31.4552V8.54476ZM22.8 29.6667V8.14603L39.0779 18.906L22.8 29.6667Z" />
+            </svg>
+          </a>
+          <a class="socials__icon" href="#">
+            <svg class="vimeo" viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+              <path d="M39.2757 0.00863075C32.8808 -0.200721 28.5532 3.3985 26.2872 10.8104C27.4542 10.3281 28.5883 10.0848 29.6944 10.0848C32.0262 10.0848 33.0584 11.3979 32.7829 14.031C32.6462 15.6256 31.616 17.9457 29.6944 20.9906C27.7651 24.0405 26.3241 25.5629 25.3668 25.5629C24.124 25.5629 22.9927 23.2067 21.9598 18.5001C21.6134 17.1139 20.994 13.5842 20.1071 7.90209C19.2756 2.63921 17.0783 0.180212 13.5055 0.525841C11.9941 0.66523 9.73007 2.05397 6.70838 4.68219C4.50387 6.69137 2.27028 8.70108 0 10.7088L2.16301 13.5107C4.22742 12.0554 5.43507 11.3312 5.77045 11.3312C7.35349 11.3312 8.83182 13.8227 10.2075 18.8051C11.4406 23.381 12.6842 27.9507 13.9233 32.52C15.7687 37.506 18.0438 40 20.72 40C25.0485 40 30.3482 35.9154 36.5984 27.7433C42.6448 19.9198 45.7664 13.7559 45.977 9.25027C46.2545 3.22885 44.0209 0.145337 39.2757 0.00863075Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+  <script src="/js/script.js"></script>
+  <script acync defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuM0MZtPVl4Kd9aTXMvDP5_BGmj12CHbw&callback=initMap" async defer></script>
+</body>
+</html>

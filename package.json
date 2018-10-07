@@ -1,0 +1,47 @@
+{
+  "name": "job.tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://n.kulvanovskaya@192.168.1.10:2233/var/www/job-webcom-media.dev1.webcom-dev.by/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-pug": "^4.0.1",
+    "jshint": "^2.9.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.2.3",
+    "ejs": "^2.6.1",
+    "g": "^2.0.1",
+    "git": "^0.1.5",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-html": "^0.5.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.3.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stream": "0.0.2",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.1",
+    "less-plugin-autoprefix": "^1.5.1",
+    "plumber": "^0.4.8",
+    "stylus": "^0.54.5",
+    "vinyl-fs": "github:wearefractal/vinyl-fs"
+  }
+}

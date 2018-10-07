@@ -1,0 +1,55 @@
+// Mixins
+r($width)
+  @media only screen and (max-width: unit($width, px))
+    {block}
+
+container()
+  padding: 10px 40px
+  padding: 10px 40px
+  margin: 0 auto
+  max-width: calc(100% - 40px * 2)
+  width 100%
+  +r(1199)
+    padding: 10px 30px
+    max-width: calc(100% - 30px * 2)
+  +r(1023)
+    padding: 10px 20px
+    max-width: calc(100% - 20px * 2)
+  +r(767)
+    padding: 10px
+    max-width: calc(100% - 10px * 2)
+
+title()
+  font-size: 20px
+  line-height: 100%
+  color: $defaultColor
+  font-weight 500
+  +r(1200)
+    font-size: 18px
+  +r(1023)
+    font-size: 16px
+
+text()
+  font-size: 17px
+  line-height: 100%
+  color: $textColor
+  font-weight 300
+  +r(1023)
+    font-size: 14px
+
+desc()
+  font-size: 14px
+  line-height: 100%
+  color: $textColor
+  font-weight 100
+  +r(1023)
+    font-size: 12px
+
+link()
+  font-size: 18px
+  line-height: 100%
+  color: $linkColor
+  font-weight 300
+  white-space nowrap
+  +r(1023)
+    font-size: 14px
