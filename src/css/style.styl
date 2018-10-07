@@ -9,3 +9,139 @@ a
   text-decoration: none
   cursor pointer
 
+.wrap
+  max-width 1024px
+  margin: 0 auto
+  padding: 0 10px
+
+.header
+  background: $background
+  color: $colorHeader
+  box-shadow: 0 0 20px $defaultColor
+  overflow hidden
+  & .wrap 
+    padding-top: 20px
+    padding-bottom: @padding-top
+    text-align: center
+
+.title
+  text-transform: uppercase
+  font-weight: 500
+  font-size: 30px
+
+.main
+  background: $backgroundMain
+  padding: 40px 0 
+  +r(1023)
+    padding: 20px 0 
+  .wrap
+    display: flex
+    flex-direction: column
+  .block
+    padding-bottom: 40px
+    +r(1023)
+      padding-bottom: 20px
+    &:last-child
+      padding-bottom: 0
+  .general-information
+    display: flex
+    align-items: center
+    justify-content: space-between
+    +r(767)
+      flex-direction: column
+  .name
+    display block
+    font-size: 60px
+    font-weight 800
+    text-shadow: 0 0 4px $defaultColor
+    +r(1023)
+      font-size: 40px
+    +r(767)
+      margin-bottom 20px
+    &--bg
+      position relative
+      z-index: 2
+      &:after
+        content: ""
+        width: 100%
+        height 100%
+        position: absolute
+        left: -0.8em
+        top: -0.2em
+        transform: skew(30deg, 0)
+        background: $backgroundTitle
+        z-index -1
+        +r(1023)
+          left: -0.1em
+          top: 0em
+  .resume-img
+    width: 30%
+    border-radius: 10px
+    &--shadow
+      box-shadow: 0 0 10px $defaultColor
+    +r(767)
+      width: 100%
+
+.main-information
+  display: flex
+  flex-wrap: wrap
+
+.about
+  width: calc((100% - 30px) / 2)
+  margin-bottom 20px
+  +r(1023)
+    width 100%
+  &:last-child
+    margin-bottom 0
+  &:nth-last-child(2)
+    margin-bottom 0
+    +r(1023)
+      margin-bottom 20px
+
+  &:nth-child(odd)
+    margin-right 30px
+    +r(1023)
+      margin-right 0
+  .category
+    border-bottom: 2px solid gray
+    margin-bottom 20px
+    +r(767)
+      margin-bottom 15px
+    &__title
+      font-size: 30px
+      line-height: 100%
+      font-weight: 300
+      text-transform: uppercase
+      color: $defaultColor
+      position relative
+      &:before
+        content: '/'
+        display inline-block
+        margin-right 20px
+        width 1em
+        height 1em
+        color: #ffffff
+        background: gray
+        text-align: center
+      +r(1023)
+        font-size: 24px
+  .info
+    &__list
+      display: flex
+      flex-direction: column
+    &__item
+      display: flex
+      flex-wrap: wrap
+      margin-bottom 20px
+      &--col
+        flex-direction: column
+        & .info__text
+          flex-basis: 0
+    &__text
+      text-transform: uppercase
+      flex-basis: 150px
+      margin-bottom 10px
+      font-weight 500
+
+
+  
