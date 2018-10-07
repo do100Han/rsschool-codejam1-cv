@@ -27,7 +27,7 @@ gulp.task('serve', function () {
 
 gulp.task('pug', function () {
     return gulp.src('src/pug/index.html')
-        .pipe(gulp.dest('src/'));
+        .pipe(gulp.dest('./'));
 });
 
 gulp.task('css', function () {
@@ -59,7 +59,7 @@ gulp.task('css', function () {
 
 gulp.task('watch', function () {
     gulp.watch('src/css/**/*.styl',gulp.series('css'))
-    gulp.watch('src/pug/index.pug', gulp.series('pug'))
+    gulp.watch('src/pug/index.html', gulp.series('pug'))
 });
 
 gulp.task('default', gulp.series(
