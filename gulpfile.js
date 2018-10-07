@@ -19,7 +19,7 @@ var gulp = require('gulp'),
 gulp.task('serve', function () {
     browserSync.init({
         server: {
-            baseDir: "./src"
+            baseDir: "./"
         }
     });
     browserSync.watch('src', browserSync.reload)
@@ -59,7 +59,7 @@ gulp.task('css', function () {
 
 gulp.task('watch', function () {
     gulp.watch('src/css/**/*.styl',gulp.series('css'))
-    gulp.watch('src/pug/index.html', gulp.series('pug'))
+    gulp.watch('index.html', gulp.series('pug'))
 });
 
 gulp.task('default', gulp.series(
